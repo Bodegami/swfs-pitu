@@ -1,7 +1,5 @@
-function App() {
-  return (
-    <div>Pitu</div>
-  );
-}
+import Routes from './routes/index';
+
+const App = ()=> <Routes />;
 
 export default App;
