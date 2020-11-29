@@ -15,11 +15,12 @@ class ShortenerService {
     const result = await this.api.get(`links/${code}/stats`);
 
     return result.data;
-
   }
 
   async generate(model) {
     const result = await this.api.post('links', model)
+
+    return result.data;
   }
 }
 
