@@ -6,14 +6,12 @@ export const StatsContainer = styled.div`
 
 export const StatsRow = styled.div`
   display: flex;
-  
   flex-wrap: wrap;
   justify-content: center !important;
   margin-bottom: 0.5rem;
 `
 
 export const StatsBox = styled.div`
-flex-direction: row;
   flex: 0 0 25%;
   max-width: 25%;
   padding: 2rem;

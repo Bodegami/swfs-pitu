@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../components/Header';
 import { Container, InputGroup, FormControl, Button, Alert, Spinner } from 'react-bootstrap';
-import { ContentContainer, Form } from './styles';
+import { ContentContainer, Form, AdsBlock } from './styles';
 import ShortenedService from '../../services/shortenerService';
 
 class HomePage extends React.Component {
@@ -82,6 +82,9 @@ class HomePage extends React.Component {
             )}
             {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
           </Form>
+        </ContentContainer>
+        <ContentContainer>
+          <AdsBlock>Adsense</AdsBlock>
         </ContentContainer>
       </Container>
     )
