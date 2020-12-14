@@ -6,7 +6,7 @@
 
 O Pitu Bodegami é uma aplicação web micro saas que foi desenvolvida durante a **Semana Web Full Stack** (#swfs), evento organizado pela [DLZ Tecnologia](https://www.linkedin.com/company/dlz/) e foi ministrado por Luiz Duarte e Daniel Castro.
 
-O objetivo desta aplicação é servir como um encurtador de links, onde o usuário pode adicionas um link para ser encurtado, compartilhar esse link e acompanhar o número de acessos ao seu link encurtado.
+O objetivo desta aplicação é servir como um encurtador de links, onde o usuário pode adicionar um link para ser encurtado, compartilhar esse link e acompanhar o número de acessos ao seu link encurtado.
 
 
 ## Layout
