@@ -21,11 +21,17 @@ O objetivo desta aplicação é servir como um encurtador de links, onde o usuá
 - NodeJS
 - Express
 - Cors
+- Typescript
+- MySQL12
+- Sequelize
 
 ## Front end
 
 - ReactJS
 - Styled Components
+- Typescript
+- Sass
+- Bootstrap
 
 ## Implantação em produção:
 
@@ -33,4 +39,39 @@ O objetivo desta aplicação é servir como um encurtador de links, onde o usuá
 - Firebase
 - MySQL
 
+# Como utilizar o projeto
 
+## Back end
+Pré-requisitos: NPM, MySQL Community Edition, NodeJS v14.15.1 ou superior
+
+```bash
+# clonar repositório
+git clone https://github.com/Bodegami/swfs-pitu
+
+# entrar na pasta do projeto back end
+cd backend
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm start
+```
+
+## Front end
+
+Pré-requisitos: npm 
+
+```bash
+# clonar repositório
+git clone https://github.com/Bodegami/swfs-pitu
+
+# entrar na pasta do projeto front end web
+cd front-web
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm start
+```
