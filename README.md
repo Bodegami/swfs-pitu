@@ -1,30 +1,36 @@
-# Pitu Bodegami v1.0
+# Pitu Bodegami 
 
-A simple micro-Saas for URL shortening.
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Bodegami/swfs-pitu/blob/main/LICENSE) 
 
-## Problema
+## Sobre o projeto
 
-As vezes temos a necessidade de compartilhar um link e o mesmo tem uma url muito longa dificultando o compartilhamento.
-Partindo do principio de querer simplicar esse processo, uma solução que pode resolver esse problema é compactar esse link.
-A partir disso foi desenvolvido o Pitu Bodegami, que supre essa necessidade.
+O Pitu Bodegami é uma aplicação web micro saas que foi desenvolvida durante a **Semana Web Full Stack** (#swfs), evento organizado pela [DLZ Tecnologia](https://www.linkedin.com/company/dlz/) e foi ministrado por Luiz Duarte e Daniel Castro.
 
-## Desenvolvimento
+O objetivo desta aplicação é servir como um encurtador de links, onde o usuário pode adicionas um link para ser encurtado, compartilhar esse link e acompanhar o número de acessos ao seu link encurtado.
 
-Esse projeto foi desenvolvido durante o evento "Semana Web Full Stack" que foi ministrada pelos professores Luiz Duarte e Daniel Castro.
 
-## Stacks
+## Layout
 
-Nesse projeto foi utilizado as seguintes ferramentas:
+![Web 1](https://github.com/Bodegami/github-assets/blob/main/Assets/Pitu-LuizToolz/web-home1.PNG) ![Web 2](https://github.com/Bodegami/github-assets/blob/main/Assets/Pitu-LuizToolz/web-home2.PNG) ![Web 3](https://github.com/Bodegami/github-assets/blob/main/Assets/Pitu-LuizToolz/web-stats.PNG)
+
+
+# Tecnologias utilizadas
+
+## Back end
 
 - NodeJS
 - Express
 - Cors
+
+## Front end
+
 - ReactJS
 - Styled Components
+
+## Implantação em produção:
+
 - AWS S3
 - Firebase
+- MySQL
 
-## Finished project
 
-Link do projeto publicado.
-Link: www.pitubodegami.tk
